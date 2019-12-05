@@ -1,0 +1,10 @@
+C:\Users\P114\source\repos\Euro\Euro\bin\Debug\Euro.exe.config
+C:\Users\P114\source\repos\Euro\Euro\bin\Debug\Euro.exe
+C:\Users\P114\source\repos\Euro\Euro\bin\Debug\Euro.pdb
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.csprojAssemblyReference.cache
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.Form1.resources
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.Properties.Resources.resources
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.csproj.GenerateResource.cache
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.csproj.CoreCompileInputs.cache
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.exe
+C:\Users\P114\source\repos\Euro\Euro\obj\Debug\Euro.pdb

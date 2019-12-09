@@ -17,42 +17,22 @@ namespace Euro
             InitializeComponent();
         }
 
-        private int nestrela = 0, nnumeros = 0;        
-        
         
 
-        
+        euromilhoes E = new euromilhoes();
 
         private void estrela(object sender, EventArgs e)
         {
             Label temp = (Label)sender;
-            if (temp.Text == "X")
-            {
-                temp.Text = "";
-                nestrela--;
-            }
-            else if (nestrela<2)
-            {
-                temp.Text = "X";
-                nestrela++;
-            }
-            teste.Text = temp.Tag.ToString();
+            temp.Text = E.estrela(Convert.ToInt32(temp.Tag)-1);
+            label63.Text = E.listaest;
         }
 
         private void numeros(object sender, EventArgs e)
         {
             Label temp = (Label)sender;
-            if (temp.Text == "X")
-            {
-                temp.Text = "";
-                nnumeros--;
-            }
-            else if (nnumeros < 5)
-            {
-                temp.Text = "X";
-                nnumeros++;7
-            }
-            teste.Text = temp.Tag.ToString();
+            temp.Text = E.numero(Convert.ToInt32(temp.Tag)-1);
+            teste.Text = E.listanum;
         }
 
         private void Label63_Click(object sender, EventArgs e)

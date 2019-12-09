@@ -91,6 +91,7 @@
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.teste = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -902,12 +903,21 @@
             // teste
             // 
             this.teste.AutoSize = true;
-            this.teste.Location = new System.Drawing.Point(393, 64);
+            this.teste.Location = new System.Drawing.Point(190, 74);
             this.teste.Name = "teste";
             this.teste.Size = new System.Drawing.Size(34, 13);
             this.teste.TabIndex = 62;
             this.teste.Text = "Teste";
             this.teste.Click += new System.EventHandler(this.Label63_Click);
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(613, 64);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(34, 13);
+            this.label63.TabIndex = 63;
+            this.label63.Text = "Teste";
             // 
             // Form1
             // 
@@ -916,6 +926,7 @@
             this.BackgroundImage = global::Euro.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.label63);
             this.Controls.Add(this.teste);
             this.Controls.Add(this.label62);
             this.Controls.Add(this.label61);
@@ -1053,6 +1064,7 @@
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label teste;
+        private System.Windows.Forms.Label label63;
     }
 }
 

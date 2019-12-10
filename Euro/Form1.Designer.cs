@@ -92,6 +92,9 @@
             this.label62 = new System.Windows.Forms.Label();
             this.teste = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -919,6 +922,34 @@
             this.label63.TabIndex = 63;
             this.label63.Text = "Teste";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(402, 56);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(83, 30);
+            this.button1.TabIndex = 64;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(190, 560);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(34, 13);
+            this.label64.TabIndex = 65;
+            this.label64.Text = "Teste";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(613, 560);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(34, 13);
+            this.label65.TabIndex = 66;
+            this.label65.Text = "Teste";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -926,6 +957,9 @@
             this.BackgroundImage = global::Euro.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.label65);
+            this.Controls.Add(this.label64);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label63);
             this.Controls.Add(this.teste);
             this.Controls.Add(this.label62);
@@ -1065,6 +1099,9 @@
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label teste;
         private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
     }
 }
 

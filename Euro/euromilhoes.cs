@@ -76,5 +76,25 @@ namespace Euro
                 return lista;
             }
         }
+        public string sorteion
+        {
+            get
+            {
+                int min = 1;
+                int max = 50;
+                Random random = new Random();
+                return Convert.ToString(random.Next(min, max)) + "+" + Convert.ToString(random.Next(min, max) + "+" + Convert.ToString(random.Next(min, max) + "+" + Convert.ToString(random.Next(min, max) + "+" + Convert.ToString(random.Next(min, max)))));
+            }
+        }
+        public string sorteioe
+        {
+            get
+            {
+                int min = 1;
+                int max = 12;
+                Random random = new Random();
+                return Convert.ToString(random.Next(min, max)) + "+" + Convert.ToString(random.Next(min, max));
+            }
+        }
     }
 }

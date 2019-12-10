@@ -39,5 +39,12 @@ namespace Euro
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            label64.Text = E.sorteion;
+            label65.Text = E.sorteioe;
+        }
+
     }
 }

@@ -90,11 +90,16 @@
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
-            this.teste = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.e1 = new System.Windows.Forms.Label();
+            this.e2 = new System.Windows.Forms.Label();
+            this.n1 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.teste = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -903,25 +908,6 @@
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label62.Click += new System.EventHandler(this.numeros);
             // 
-            // teste
-            // 
-            this.teste.AutoSize = true;
-            this.teste.Location = new System.Drawing.Point(190, 74);
-            this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(34, 13);
-            this.teste.TabIndex = 62;
-            this.teste.Text = "Teste";
-            this.teste.Click += new System.EventHandler(this.Label63_Click);
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(613, 64);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(34, 13);
-            this.label63.TabIndex = 63;
-            this.label63.Text = "Teste";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(402, 56);
@@ -932,33 +918,105 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // label64
+            // n2
             // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(190, 560);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(34, 13);
-            this.label64.TabIndex = 65;
-            this.label64.Text = "Teste";
+            this.n2.BackColor = System.Drawing.Color.White;
+            this.n2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.n2.Location = new System.Drawing.Point(159, 521);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(40, 40);
+            this.n2.TabIndex = 66;
             // 
-            // label65
+            // n3
             // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(613, 560);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(34, 13);
-            this.label65.TabIndex = 66;
-            this.label65.Text = "Teste";
+            this.n3.BackColor = System.Drawing.Color.White;
+            this.n3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.n3.Location = new System.Drawing.Point(206, 521);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(40, 40);
+            this.n3.TabIndex = 67;
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.White;
+            this.n4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.n4.Location = new System.Drawing.Point(253, 521);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(40, 40);
+            this.n4.TabIndex = 68;
+            // 
+            // n5
+            // 
+            this.n5.BackColor = System.Drawing.Color.White;
+            this.n5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.n5.Location = new System.Drawing.Point(300, 521);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(40, 40);
+            this.n5.TabIndex = 69;
+            // 
+            // e1
+            // 
+            this.e1.BackColor = System.Drawing.Color.White;
+            this.e1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.e1.Location = new System.Drawing.Point(580, 521);
+            this.e1.Name = "e1";
+            this.e1.Size = new System.Drawing.Size(40, 40);
+            this.e1.TabIndex = 70;
+            // 
+            // e2
+            // 
+            this.e2.BackColor = System.Drawing.Color.White;
+            this.e2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.e2.Location = new System.Drawing.Point(646, 521);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(40, 40);
+            this.e2.TabIndex = 71;
+            // 
+            // n1
+            // 
+            this.n1.BackColor = System.Drawing.Color.White;
+            this.n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.n1.Location = new System.Drawing.Point(112, 521);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(40, 40);
+            this.n1.TabIndex = 72;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.BackColor = System.Drawing.Color.White;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(613, 64);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(0, 29);
+            this.label63.TabIndex = 63;
+            // 
+            // teste
+            // 
+            this.teste.AutoSize = true;
+            this.teste.BackColor = System.Drawing.Color.White;
+            this.teste.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teste.Location = new System.Drawing.Point(184, 65);
+            this.teste.Name = "teste";
+            this.teste.Size = new System.Drawing.Size(0, 29);
+            this.teste.TabIndex = 62;
+            this.teste.Click += new System.EventHandler(this.Label63_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Blue;
             this.BackgroundImage = global::Euro.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
-            this.Controls.Add(this.label65);
-            this.Controls.Add(this.label64);
+            this.Controls.Add(this.n1);
+            this.Controls.Add(this.e2);
+            this.Controls.Add(this.e1);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label63);
             this.Controls.Add(this.teste);
@@ -1097,11 +1155,16 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label teste;
-        private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label n5;
+        private System.Windows.Forms.Label e1;
+        private System.Windows.Forms.Label e2;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label teste;
     }
 }
 

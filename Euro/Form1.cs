@@ -42,9 +42,15 @@ namespace Euro
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            label64.Text = E.sorteion;
-            label65.Text = E.sorteioe;
+            int[] n = E.nsorteia;
+            int[] est = E.esorteia ;
+            n1.Text = n[0].ToString();
+            n2.Text = n[1].ToString();
+            n3.Text = n[2].ToString();
+            n4.Text = n[3].ToString();
+            n5.Text = n[4].ToString();
+            e1.Text = est[0].ToString();
+            e2.Text = est[1].ToString();
         }
-
     }
 }
